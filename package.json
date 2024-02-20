@@ -1,0 +1,25 @@
+{
+    "name": "eslint-plugin-react-require-testid",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/charlespalmerbf/eslint-plugin-react-require-testid"
+    },
+    "bugs": {
+        "url": "https://github.com/charlespalmerbf/eslint-plugin-react-require-testid/issues"
+    },
+    "homepage": "https://github.com/charlespalmerbf/eslint-plugin-react-require-testid#readme",
+    "dependencies": {
+        "@babel/parser": "^7.22.5",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^8.43.0"
+    }
+}
