@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-react-require-testid",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "lib/index.js",
     "license": "MIT",
     "scripts": {
