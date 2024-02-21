@@ -1,14 +1,30 @@
 {
     "name": "eslint-plugin-react-require-testid",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "lib/index.js",
     "license": "MIT",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
+    "keywords": [
+        "ESLint",
+        "React",
+        "Testing",
+        "Linting",
+        "Code Quality",
+        "JSX",
+        "Configuration",
+        "Custom ESLint Rules",
+        "Plugin Development",
+        "JavaScript",
+        "Static Analysis",
+        "Code Standards",
+        "Development Best Practices",
+        "Configuration Management",
+        "Automated Testing"
+    ],
     "author": "",
-    "description": "",
+    "description": "This ESLint plugin helps ensure that React components have the necessary testID attribute, which is crucial for effective testing of React applications.",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/charlespalmerbf/eslint-plugin-react-require-testid"
