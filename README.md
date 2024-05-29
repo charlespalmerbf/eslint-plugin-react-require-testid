@@ -1,6 +1,6 @@
 # eslint-plugin-react-require-testid
 
-This ESLint plugin helps ensure that React components have the necessary testID attribute, which is crucial for effective testing of React applications.
+This ESLint plugin helps ensure that React components have the necessary data-testid attribute, which is crucial for effective testing of React applications.
 
 ## Installation
 
@@ -34,8 +34,8 @@ In this configuration:
 -   The rule iterates through JSX opening elements in your code.
 -   It filters out default React components based on the configuration.
 -   It merges the filtered default components with any additional components specified.
--   For each JSX opening element, it checks if the component is allowed and if it has a `testID` attribute.
--   If the component is allowed but lacks a `testID` attribute, a linting error is reported.
+-   For each JSX opening element, it checks if the component is allowed and if it has a `data-testid` attribute.
+-   If the component is allowed but lacks a `data-testid` attribute, a linting error is reported.
 
 ###### Example
 
@@ -43,7 +43,7 @@ Consider the following JSX code snippet:
 
 `<MyCustomComponent />`
 
-With the ESLint rule configured, it will raise a linting error if `MyCustomComponent` is included in the allowed components list but does not have a `testID` attribute.
+With the ESLint rule configured, it will raise a linting error if `MyCustomComponent` is included in the allowed components list but does not have a `data-testid` attribute.
 
 ###### Contributing
 
